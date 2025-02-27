@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image and Description</title>
+</head>
+<body>
+    <h1>Upload Image and Description</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label for="description">Description:</label>
+        <input type="text" name="description" required>
+        
+        <label for="file">Select image:</label>
+        <input type="file" name="file" accept="image/*" required>
+        
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
