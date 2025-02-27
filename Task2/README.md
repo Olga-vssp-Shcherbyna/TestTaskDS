@@ -64,6 +64,7 @@ python -m spacy download en_core_web_lg
 ## Dataset
 
 The dataset used for this project is the Animal-10 dataset, which consists of images of various animals and corresponding text data for NER training. Ensure you have the dataset organized in the specified format after extracting `Animal-10-split.zip`.
+You can find dataset [here](https://drive.google.com/file/d/1Q9_HGeT9xDea_9XoQmoO4voLcrbUj8y5/view?usp=sharing).
 
 ## Usage
 
